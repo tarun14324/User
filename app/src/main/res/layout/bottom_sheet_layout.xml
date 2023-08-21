@@ -13,7 +13,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/create_pet_screen_margin">
+            android:layout_margin="@dimen/margin_16">
 
 
             <com.google.android.material.textfield.TextInputLayout
@@ -39,7 +39,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/age"
-                android:layout_marginVertical="@dimen/item_margin"
+                android:layout_marginVertical="@dimen/margin_16"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/nameInputLayout">
@@ -57,7 +57,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/city"
-                android:layout_marginVertical="@dimen/item_margin"
+                android:layout_marginVertical="@dimen/margin_16"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/ageInputLayout">

@@ -1,11 +1,8 @@
 <resources>
-    <dimen name="item_margin">16dp</dimen>
-    <dimen name="image_size">64dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
     <dimen name="item_margin_text">16dp</dimen>
     <dimen name="item_margin_text_small">4dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="card_corner_radius">16dp</dimen>
     <dimen name="card_margin">8dp</dimen>
-    <dimen name="create_pet_screen_margin">16dp</dimen>
-    <dimen name="image_item_size">72dp</dimen>
 </resources>

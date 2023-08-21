@@ -10,26 +10,17 @@
   <androidx.constraintlayout.widget.ConstraintLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_margin="@dimen/item_margin">
+      android:layout_margin="@dimen/margin_16">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/ivUser"
-        android:layout_width="@dimen/image_size"
-        android:layout_height="@dimen/image_size"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:src="@drawable/ic_person" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvUser"
         style="@style/TextAppearance.MaterialComponents.Headline6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/item_margin_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/ivUser"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Owner Name" />
 
@@ -38,9 +29,9 @@
         style="@style/TextAppearance.MaterialComponents.Caption"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/item_margin_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/ivUser"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/tvUser"
+        app:layout_constraintStart_toStartOf="@id/tvUser"
         app:layout_constraintTop_toBottomOf="@id/tvUser"
         tools:text="25" />
 
@@ -49,9 +40,9 @@
         style="@style/TextAppearance.MaterialComponents.Caption"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/item_margin_text"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/ivUser"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvAge"
         tools:text="Kolkata"/>
 
